@@ -1,0 +1,22 @@
+{
+  "name": "twitter_analyzer",
+  "version": "1.0.0",
+  "description": "website for twitter_analyzer",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mailgun-js": "^0.22.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "license": "C"
+}

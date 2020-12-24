@@ -1,0 +1,9 @@
+{ 
+    "watch": ["views/"],
+    "ext": "js, json, css, ejs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+     ],
+    "verbose": true
+}
